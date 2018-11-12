@@ -126,8 +126,33 @@ img {width: 100%;}
 	       color: white;
 	       float: right;}
 
+.top {position: relative;
+      margin:0;
+      color: #fff;
+      width: 100%;
+      display: block;
+      z-index: -10;
+      width: 100%;}
+	  
+.top h1 {font-size: 300%; 
+	 padding: 0 0 3em;
+	 margin-top: 0;}
 
+.content {position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+	  line-height: 1;}
 
+.content a {border: 2px solid #FFF;
+            padding: 0.5em 1em 1em 0.5em;
+	    color: #FFF;
+	    text-decoration: none;
+	    display: inline-block;}
+
+.content a:hover {background-color: #FFF;
+		  color: #000;}
 
 
 
