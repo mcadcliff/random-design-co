@@ -186,7 +186,10 @@ img {width: 100%;}
 
 .project:hover h3 {color: #FFF;}
 
-
+footer {clear: both;
+	text-align: center;
+	padding: 1em;
+	border-top: 1px solid #DDD;}
 
 
 /* ==========================================================================
