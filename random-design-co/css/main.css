@@ -97,7 +97,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {box-sizing: border-box;}
 
+*, *:before, *:after {box-sizing: inherit;}
+
+body {font-family: 'Oswald', sans-serif;
+	  padding: 3em;
+	  margin: 0;}
 
 
 
