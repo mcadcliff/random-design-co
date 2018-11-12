@@ -155,7 +155,9 @@ img {width: 100%;}
 		  color: #000;}
 
 
-
+.middle {position: relative;
+         color: #000;
+	 border-bottom: 1px solid #DDD;}	
 
 
 
